@@ -1,0 +1,16 @@
+ os
+asyncio
+nest_asyncio
+requests
+logging
+http.client
+psutil
+time
+urllib3
+paramiko
+from dotenv import load_dotenv
+from datetime import datetime, timedelta
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
+
+
